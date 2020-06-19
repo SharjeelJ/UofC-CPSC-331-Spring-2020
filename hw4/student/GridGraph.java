@@ -242,7 +242,6 @@ public class GridGraph implements GridGraphInterface
             return this.value == ((Vertex) vertex).value;
         }
 
-
         /**
          * Overrides the default compareTo method to instead check the distance between the current and passed in vertex while relying on the values of the two vertices if the distances were equal. This is important as it allows the Vertex PriorityQueue to appropriate assign priority to vertices
          *
@@ -286,7 +285,7 @@ public class GridGraph implements GridGraphInterface
          * @param destination Vertex where the edge terminates to
          * @param weight      Weight of the edge between the origin and destination vertices
          */
-        Edge(Vertex origin, Vertex destination, int weight)
+        public Edge(Vertex origin, Vertex destination, int weight)
         {
             // Stores the passed in origin vertex
             this.originVertex = origin;
