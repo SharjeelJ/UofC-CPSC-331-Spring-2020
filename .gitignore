@@ -387,5 +387,3 @@ $RECYCLE.BIN/
 
 # End of https://www.gitignore.io/api/vim,java,linux,macos,windows,eclipse,netbeans,intellij,jetbrains,notepadpp,sublimetext,libreoffice,microsoftoffice
 /.idea/
-/Assignment2/
-/Assignment3/
